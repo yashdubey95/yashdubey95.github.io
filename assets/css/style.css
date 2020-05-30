@@ -331,6 +331,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  background-color: chocolate;
 }
 
 .section-title h2 {
