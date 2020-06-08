@@ -28,8 +28,8 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: iPortfolio - v1.2.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Template Name: MyResume - v2.0.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -41,38 +41,30 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-      <div class="profile">
-        <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Yash Dubey</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="https://github.com/yashdubey95/yashdubey95.github.io/raw/master/resume/Yash_Dubey_Resume.pdf"><i class="bx bx-file-blank"></i> <span>Download Resume</span></a></li>  
+      </ul>
+    </nav><!-- .nav-menu -->
 
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i>Portfolio</a></li>
-           <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li>    
-          <li><a href="https://github.com/yashdubey95/yashdubey95.github.io/raw/master/resume/Yash_Dubey_Resume.pdf"><i class="bx bx-file-blank"></i><span>Download Resume</span></a></li>
-         
-
-        </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Yash Dubey</h1>
       <p>I'm <span class="typed" data-typed-items="Software Engineer, Data Scientist, AI Developer"></span></p>
+      <div class="social-links">
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -80,7 +72,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>About</h2>
@@ -88,15 +80,12 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.png" class="img-fluid" alt="" style="padding-top: 10px; padding-left: 25px">
-             <p class="font-italic">
-              
-            </p>  
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3></h3>
-            <p>    
+            <p>
               Hey, it's Me! I am a Software Engineer and a Machine Learning Enthusiast who loves to make things that make a difference. I recently graduated with a Master's Degree in Computer Science from The University of Texas at Arlington and also hold a Bachelor's Degree in Computer Science and Engineering from RTM Nagpur University. Getting insights and learning about new things is something that I like, thus I push myself to learn something new be it about Machine Learning & AI, Software Engineering or even about the Universe itself (huge space geek!!!) Throughout my academics and various extra-curricular projects, I have acquired skills and the technical know-how that gives me the edge to achieve my goal of becoming a software engineer that can deploy a machine learning model to production.
             </p>
             <div class="row">
@@ -112,107 +101,94 @@
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 24</li>
                   <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> yashdubey95@gmail.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Job Status:</strong> Looking for Job</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> yashdubey95@gmail.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Work Status:</strong> Looking for Employement</li>
                 </ul>
               </div>
             </div>
+            
           </div>
-             
         </div>
-       <p><center><b>I am Teamplayer, Detail Oriented, Adaptive, Analytical Thinker, Good Orator, Active Learner...</b></center></p>
+          <p><center><b>I am Teamplayer, Detail Oriented, Adaptive, Analytical Thinker, Good Orator, Active Learner...</b></center></p>
       </div>
     </section><!-- End About Section -->
 
-      
     <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
+    <section id="facts" class="facts" style="background-color:aliceblue">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Research Paper Published</h2>
           <p><img src="assets/img/paperpublish.png">Topic Detection by Clustering and Text Mining: International Research Journal of Engineering and Technology, Volume 4, Issue 3, March 2017</p>
         </div>
-          
+
         <div class="section-title">
           <h2>Certifications</h2>
           <p><img src="assets/img/star.png"> Completed Certification Courses on: “Neural Networks and Deep Learning by Andrew Ng” (Coursera)</p>
           <p><img src="assets/img/star.png"> Artificial Intelligence A-Z: Learn how to build an AI (Udemy)</p>
           <p><img src="assets/img/star.png"> Machine Learning A-Z: Hands-on Python & R in Data Science (Udemy)</p>
           <p><img src="assets/img/star.png"> Deep Learning A-Z: Hands-on Artificial Neural Networks (Udemy)</p>
-        </div>  
+        </div>
           
         <div class="section-title">
           <h2>Awards</h2>
           <p><img src="assets/img/trophy.png"> Secured 1st position in "Technobuzz" (A national level coding competition)</p>
           <p><img src="assets/img/trophy.png"> Awarded Certificate of Appreciation for Participating in Inter-College and National Level Conventions</p>
           <p><img src="assets/img/trophy.png"> Team head and Part of Organizing Committee for various Technical and Non-technical events conducted in College</p>
-        </div>    
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="icofont-simple-smile"></i>
-              <span data-toggle="counter-up">232</span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="icofont-document-folder"></i>
-              <span data-toggle="counter-up">521</span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="icofont-live-support"></i>
-              <span data-toggle="counter-up">1,463</span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="icofont-users-alt-5"></i>
-              <span data-toggle="counter-up">15</span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div>
-
-        </div>
-
+        </div>      
+  
       </div>
     </section><!-- End Facts Section -->
 
-      
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Based on my academics and extra cirricular projects at UT Arlington I have acquired skills and the technical know how of some Programming languages like Python, SQL, C/C++, R, Java & JavaScript. Aspiring to work as a Data Scientist I had the opportunity to work on Data science Libraries and Frameworks like NumPy, Matpotlib, TensorFlow, PyTorch, Apache Hadoop, Apache Spark (PySpark)</p>
         </div>
 
         <div class="row skills-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
+          <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">Python <i class="val">95%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">SQL <i class="val">95%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C/C++ <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">R <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java<i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -224,67 +200,90 @@
             </div>
 
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+            
+           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <span class="skill">Apache Hadoop <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <span class="skill">Apache Spark<i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
-          </div>
+            <div class="progress">
+              <span class="skill">TensorFlow <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div> 
+            
+         <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">NumPy <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Matpotlib<i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Pytorch <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>    
+    
 
         </div>
 
       </div>
     </section><!-- End Skills Section -->
 
-   
-
+  
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
+    <section id="portfolio" class="portfolio section-bg" style="background-color: aliceblue">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>----</p>
         </div>
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              <div class="portfolio-info">
+                <h4>Monocular Depth Estimation</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -292,9 +291,13 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              <div class="portfolio-info">
+                <h4>Self Driving Car</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="self-driving%20car.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -302,9 +305,13 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              <div class="portfolio-info">
+                <h4>Chat Bot</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="Chat%20Bot.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -312,9 +319,13 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              <div class="portfolio-info">
+                <h4>Predicting NYT's Pick from a pool of Comments</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="NYT's%20Pick.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -322,83 +333,39 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              <div class="portfolio-info">
+                <h4>Movie Recommender System</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="Movie%20recommender%20system.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
+    </div>
 
       </div>
     </section><!-- End Portfolio Section -->
 
-    
+   
+   
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2><center>Get In Touch</center></h2>
-            <p><center><h5>Yash Dubey</h5></center></p>
-          <p><center><h6>Software Engineer , Data Scientist , AI Developer</h6></center></p>
-          <p><center><h6>Graduate at University Of Texas, Arlington - Class of 2020</h6></center></p>    
+          <h2>Contact</h2>
         </div>
-          
-        <div class="row" data-aos="fade-in">
+
+        <div class="row mt-1">
+
             <div style="padding-left: 300px"><img src="assets/img/email.png"><b>yashdubey95@gmail.com</b></div>
-            <div style="padding-left: 25px"><img src="assets/img/phone.png"><b>+1(682) 407-6794</b></div>
-            
+            <div style="padding-left: 50px"><img src="assets/img/phone.png"><b>+1(682) 407-6794</b></div>
 
         </div>
-              
-            </div>
-            
-          </div>
-       
-        </div>
 
+      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -406,21 +373,28 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
+      <h3>Yash Dubey</h3>
+      <p>Software Engineer , Data Scientist , AI Developer <br><br>
+      MS In CS - University Of Texas at Arlington - Class of 2020</p>    
+      <div class="social-links">
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
       <div class="copyright">
-          <span><img src="assets/img/graduate-icon.png" style="padding-right: 5px ; padding-bottom: 5px">MS in CS - Class of 2020<br>University of Texas , Arlington</span><br><br>
-        &copy; Copyright <strong><span>Yash Dubey 2020 | All Rights Reserved</span></strong>
+        &copy; Copyright <strong><span>Yash Dubey</span></strong>| All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-       
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="#">Yash Dubey</a>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
